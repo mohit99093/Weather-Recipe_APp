@@ -1,0 +1,11 @@
+.main-body{
+    margin: 0;
+    padding: 0;
+    overflow-y:hidden
+}
+.main{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)), url(../img/background.jpg) no-repeat center /cover;
+    height: 100vh;
+
+}
+

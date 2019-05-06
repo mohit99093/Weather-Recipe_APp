@@ -1,0 +1,40 @@
+.w-f-body>form>input{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.w-f-body{
+    text-align: center
+}
+
+.w-f-body>form>input{
+    padding: 10px;
+    margin: 15px;
+    width: 500px;
+    font-size: 25px;
+    background: transparent;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-bottom: 2px groove rgba(126, 107, 107, 0.933);
+    transition: all .5s
+}
+.w-f-body>form>input:focus{
+    border-bottom-color: red
+}
+
+.w-f-body>button{
+    background: #009688;
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    outline: none;
+    border: 0;
+    margin: 24px;
+    transition: all .5s
+}
+
+@media (max-width: 576px) { 
+   .w-f-body>form>input{
+    width: 75%;
+   }
+ }

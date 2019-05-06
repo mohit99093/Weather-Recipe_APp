@@ -1,0 +1,37 @@
+.w-title{
+        text-align: center;
+        margin-top: 20px
+}
+
+.w-h1{
+    font-size: 3rem;
+    font-weight: 50 0;
+    text-shadow: 2px 3px 5px #aaa;
+    transition: all 0.5s;
+    display: inline-block;
+    margin-top: 25px;
+    color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.w-h1::first-letter{
+    font-family: 'Great Vibes', cursive;   
+    font-size: 5rem;
+    margin-right: 10px
+}
+
+.w-h1:hover{
+    transform: translate(-5px,-3px);
+    text-shadow: 2px 5px 20px #aaa
+}
+@media (max-width: 576px) { 
+   .w-h1{
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+   .w-h1::first-letter{
+        margin-right: 3px
+    }
+
+ }

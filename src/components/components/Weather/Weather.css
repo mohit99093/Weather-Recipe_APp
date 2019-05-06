@@ -1,0 +1,19 @@
+.w-data{
+    color: white;
+    font-size: 30px;
+    padding: 0;
+    
+    
+}
+.w-start{
+    text-align: start;
+    /* background: #0; */
+    margin-bottom: 10px; 
+    margin: auto
+}
+
+ .center{
+     margin: auto;    
+     width: 500px;
+ }
+ 
